@@ -1,4 +1,4 @@
-cosnt datas = [
+const datas = [
   { name: 'test1', score: 1 },
   { name: 'test2', score: 2 },
   { name: 'test3', score: 3 },
