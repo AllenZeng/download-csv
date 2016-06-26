@@ -25,4 +25,4 @@ downloadCsv(datas, columns);
 
 ## demo
 
-[see the usage demo](https://github.com/AllenZeng/download-csv/blob/master/example/README.MD)
+[see the usage demo](https://github.com/AllenZeng/download-csv/blob/master/example/demo.js)
