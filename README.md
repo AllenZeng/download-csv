@@ -1,5 +1,5 @@
 # download-csv
-this is a funtion to download csv file
+a funtion to download csv file
 
 ## Install
 
