@@ -25,4 +25,4 @@ downloadCsv(datas, columns);
 
 ## demo
 
-[see the usage demo](https://github.com/AllenZeng/webpack-base-config/blob/master/example/README.md)
+[see the usage demo](https://github.com/AllenZeng/download-csv/blob/master/example/README.MD)
