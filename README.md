@@ -1,6 +1,10 @@
 # download-csv
 a funtion to download csv file
 
+## Browser Compatible
+this modlue dependent on `a` tag attribute `download`, so that some Browser can not use.
+[see the browser compatible](http://caniuse.com/#search=download)
+
 ## Install
 
 ```bash
