@@ -20,7 +20,7 @@ downloadCsv(datas, columns);
 
 ## Options
 
-`datas`: an array
+`datas`: an array<br>
 `columns`: downloadFile header column title(default value: `datas` keys value)
 
 ## demo
