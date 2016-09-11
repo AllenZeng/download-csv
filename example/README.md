@@ -16,12 +16,12 @@ downloadCsv(datas, columns);
 ```
 
 the download file like this:<br>
-| 姓名 | 分数 | level |
-| :--: | :--: | :--: |
-| test1 | 1 | Z |
-| test2 | 2 |  |
-| test3 | 3 |  |
-| test4 | 4 |  |
+| 姓名 | 分数 | level |<br>
+| :--: | :--: | :--: |<br>
+| test1 | 1 | Z |<br>
+| test2 | 2 |  |<br>
+| test3 | 3 |  |<br>
+| test4 | 4 |  |<br>
 
 ## object data
 
@@ -34,10 +34,10 @@ downloadCsv(datas, columns);
 ```
 
 the download file like this:<br>
-| 姓名 | test1 |
-| :--: | :--: |
-| 分数 | 1 |
-| level | Z |
+| 姓名 | test1 |<br>
+| :--: | :--: |<br>
+| 分数 | 1 |<br>
+| level | Z |<br>
 
 
 you can use `npm i && npm start` to run the demo in `localhost:3000`
