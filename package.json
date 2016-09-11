@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/AllenZeng/download-csv/issues"
   },
-  "homepage": "https://github.com/AllenZeng/download-csv#readme"
+  "homepage": "https://github.com/AllenZeng/download-csv#readme",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "browser-sync": "^2.15.0",
+    "browsersync-ssi": "^0.2.4",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-hash": "^3.1.0",
+    "gulp-uglify": "^2.0.0"
+  }
 }

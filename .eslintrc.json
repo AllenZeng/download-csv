@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "globals": {
+    "document": true,
+    "XMLHttpRequest": true,
+    "window": true,
+    "navigator": true,
+    "location": true
+  }
+}
