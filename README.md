@@ -25,7 +25,7 @@ downloadCsv(datas, columns, exportFileName);
 ## Options
 
 `datas`: download datas support object and array(see the demo to check details)<br>
-`columns`: download file column header title(default value: `datas` keys value)
+`columns`: download file column header title(default value: `datas` keys value)<br>
 `exportFileName`: export file name (default value : `export.csv`, please include the file extension)
 
 ## demo
