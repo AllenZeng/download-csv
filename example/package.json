@@ -1,7 +1,7 @@
 {
   "name": "example",
   "version": "1.0.0",
-  "description": "",
+  "description": "the download-csv demo",
   "main": "demo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "download-csv": "^1.0.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "webpack-base-config": "^0.2.9"

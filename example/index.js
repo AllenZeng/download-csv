@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-
-var creatCSVFile = require('../dist/creatCSVFile');
-var downloadFile = require('../dist/downloadFile');
+import downloadCsv from 'download-csv';
 
 export class Index extends Component {
-  btnClick() {
+  downloadArrayData() {
     const datas = [
-      { name: 'test1', score: 1, cate: 23 },
+      { name: 'test1', score: 1, level: 'Z' },
       { name: 'test2', score: 2 },
       { name: 'test3', score: 3 },
       { name: 'test4', score: 4 },
@@ -18,16 +16,22 @@ export class Index extends Component {
 
     const columns = { name: '姓名', score: '分数' };
 
-    const datas2 = { name: 'test1', score: 1 };
+    downloadCsv(datas, columns);
+  }
 
-    downloadFile(creatCSVFile(datas, columns));
+  downloadObjectData() {
+    const dataoObject = { name: 'test1', score: 1, level: 'Z' };
+    const columns = { name: '姓名', score: '分数' };
+
+    downloadCsv(dataoObject, columns);
   }
 
   render() {
     return (
       <div>
         <h1>hello test</h1>
-        <button onClick={() => this.btnClick()}>download csv</button>
+        <button onClick={() => this.downloadArrayData()}>download arraydata</button>
+        <button onClick={() => this.downloadObjectData()}>download objectData</button>
       </div>
     );
   }

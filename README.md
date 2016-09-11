@@ -18,14 +18,15 @@ import downloadCsv from 'download-csv';
 
 // in your project call this function
 // like this
-downloadCsv(datas, columns);
+downloadCsv(datas, columns, exportFileName);
 
 ```
 
 ## Options
 
-`datas`: an object array<br>
-`columns`: downloadFile header column title(default value: `datas` keys value)
+`datas`: download datas support object and array(see the demo to check details)<br>
+`columns`: download file column header title(default value: `datas` keys value)
+`exportFileName`: export file name (default value : `export.csv`, please include the file extension)
 
 ## demo
 
