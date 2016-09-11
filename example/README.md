@@ -35,10 +35,10 @@ downloadCsv(datas, columns);
 ```
 
 the download file like this:<br>
-| 姓名 | test1 |
-| :----: | :----: |
-| 分数 | 1 |
-| level | Z |
+|  姓名 | test1 |
+| :---: | :---: |
+|  分数 |   1   |
+| level |   Z   |
 
 
 you can use `npm i && npm start` to run the demo in `localhost:3000`
