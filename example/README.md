@@ -39,3 +39,7 @@ the download file like this:
 | 分数 | 1 |
 | level | Z |
 
+
+you can use `npm i && npm start` to run the demo in `localhost:3000`
+
+
