@@ -16,16 +16,10 @@ downloadCsv(datas, columns);
 ```
 
 the download file like this:<br>
-| 姓名  | 分数  | level |
+
+|  姓名 | 分数  | level |
 | :---: | :---: | :---: |
 | test1 |   1   |   Z   |
-| test2 |   2   |       |
-| test3 |   3   |       |
-| test4 |   4   |       |
-
-| 姓名 | 分数  | level |
-| :----: |:----:| :----:|
-| test1 | 1 | Z |
 | test2 |   2   |       |
 | test3 |   3   |       |
 | test4 |   4   |       |
