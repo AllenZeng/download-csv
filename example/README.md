@@ -15,7 +15,7 @@ const columns = { name: '姓名', score: '分数' };
 downloadCsv(datas, columns);
 ```
 
-the download file like this:
+the download file like this:<br>
 | 姓名 | 分数 | level |
 | :--: | :--: | :--: |
 | test1 | 1 | Z |
@@ -33,7 +33,7 @@ const columns = { name: '姓名', score: '分数' };
 downloadCsv(datas, columns);
 ```
 
-the download file like this:
+the download file like this:<br>
 | 姓名 | test1 |
 | :--: | :--: |
 | 分数 | 1 |
