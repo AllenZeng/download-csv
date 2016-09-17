@@ -1,6 +1,6 @@
 {
   "name": "download-csv",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a funtion to dowload csv file",
   "main": "index.js",
   "scripts": {
