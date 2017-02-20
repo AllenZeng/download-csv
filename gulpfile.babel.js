@@ -19,7 +19,7 @@ gulp.task('serve', () => {
     },
   });
 
-  gulp.watch('src/*.js', ['js', browserSync.reload]);
+  gulp.watch('lib/*.js', ['js', browserSync.reload]);
 });
 
 gulp.task('js', () => gulp.src('lib/*.js')
