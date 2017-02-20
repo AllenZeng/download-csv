@@ -2,8 +2,9 @@
 a funtion to download csv file
 
 ## Browser Compatible
-this modlue dependent on `a` tag attribute `download`, so that some Browser can not use.
-[see the browser compatible](http://caniuse.com/#search=download)
+this modlue dependent on `a` tag attribute `download`, so that some Browser can not use.<br>
+[see the browser compatible](http://caniuse.com/#search=download)<br>
+tips: in safari the file will download success but you must change the file extension to `.csv`;
 
 ## Install
 
