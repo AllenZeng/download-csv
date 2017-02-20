@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import downloadCsv from 'download-csv';
+// import downloadCsv from '../index.js';
 
 export class Index extends Component {
   downloadArrayData() {
