@@ -17,7 +17,7 @@ npm install download-csv --save
 ```js
 import downloadCsv from 'download-csv';
 
-// in your project call this function like this
+// in your project, like this
 downloadCsv(datas, columns, exportFileName);
 
 ```
@@ -28,8 +28,20 @@ downloadCsv(datas, columns, exportFileName);
 `columns`: download file column header title(default value: `datas` keys value)<br>
 `exportFileName`: export file name (default value : `export.csv`, please include the file extension)
 
+## Other
 
-## support array data and object type data download
+tool function
+
+```js
+import { creatCsvFile, downloadFile, detectionClientType } from 'download-csv';
+
+creatCsvFile(datas, columns); // return csvfile
+downloadFile(csvfile, exportFileName); // browser download file
+detectionClientType(); // return { name: 'browser name', version: 'browser version' };
+
+```
+
+## Support array data and object type data download
 
 ## array data
 
@@ -72,6 +84,7 @@ the download file like this:<br>
 |  分数 |   1   |
 | level |   Z   |
 
-## demo
+## Demo
 
 [see the usage demo](https://github.com/AllenZeng/download-csv/blob/master/example)
+
